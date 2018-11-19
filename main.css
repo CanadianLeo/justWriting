@@ -1,0 +1,44 @@
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background: linear-gradient(to top left, powderblue, pink);
+}
+
+.original_text {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    width: 800px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+textarea.original_text {
+    margin-top: 30px;
+    width: 860px;
+    border: none;
+    resize: none;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.current_word {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.one_word {
+    display: inline-block;
+    padding: 5px;
+}
+
+.errors {
+    color: red;
+    font-size: 20px;
+}
